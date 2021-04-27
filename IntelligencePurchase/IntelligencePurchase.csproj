@@ -139,16 +139,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BidSectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BidSectionControl.Designer.cs">
+      <DependentUpon>BidSectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContractControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContractControl.Designer.cs">
+      <DependentUpon>ContractControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="NCControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NCControl.Designer.cs">
+      <DependentUpon>NCControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PriceControl.Designer.cs">
+      <DependentUpon>PriceControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProjectControl.Designer.cs">
+      <DependentUpon>ProjectControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SupplierControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SupplierControl.Designer.cs">
+      <DependentUpon>SupplierControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BidSectionControl.resx">
+      <DependentUpon>BidSectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContractControl.resx">
+      <DependentUpon>ContractControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NCControl.resx">
+      <DependentUpon>NCControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceControl.resx">
+      <DependentUpon>PriceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectControl.resx">
+      <DependentUpon>ProjectControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -160,6 +211,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SupplierControl.resx">
+      <DependentUpon>SupplierControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
