@@ -45,7 +45,7 @@ namespace DBLibrary.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySql("server=localhost;port=3306;user=root;password=root;database=IntelligencePurchase", x => x.ServerVersion("5.7.30-mysql"));
+                optionsBuilder.UseMySql("server=DESKTOP-Q574UBG;port=3306;user=root;password=root;database=IntelligencePurchase", x => x.ServerVersion("5.7.30-mysql"));
             }
         }
 
